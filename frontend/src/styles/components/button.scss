@@ -1,0 +1,111 @@
+@import '../_variables.scss';
+
+.Button {
+    background-color: red;
+    color: $white;
+    padding: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 22px;
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+    appearance: auto;
+    font-size: 18px;
+    .Button:hover {
+        background-color: $guardsmanRed;
+    }
+    &.Button.primary {
+        background-color: $blueMedium;
+        border-color: $blueMedium;
+        border-style: solid;
+        color: $white;
+        &:hover {
+            background-color: $blueLight;
+        }
+    }
+    &.Button.secondary {
+        background-color: $paleSky;
+        border-color: $paleSky;
+        color: $white;
+        &:hover {
+            background-color: $abbey;
+        }
+    }
+    &.Button.tertiary {
+        background-color: $white;
+        border-color: $azureRadiance;
+        color: $azureRadiance;
+        border: 1px solid $azureRadiance;
+        &:hover {
+            background-color: $gallery;
+        }
+    }
+    &.Button.danger {
+        background-color: $punch;
+        border-color: $punch;
+        color: $white;
+        &:hover {
+            background-color: $cardinal;
+        }
+    }
+    &.Button.warning {
+        background-color: $amber;
+        border-color: $amber;
+        color: $shark;
+        &:hover {
+            background-color: $corn;
+        }
+    }
+    &.Button.success {
+        background-color: $eucalyptus;
+        border-color: $eucalyptus;
+        color: $white;
+        &:hover {
+            background-color: $forestGreen;
+        }
+    }
+    &.Button.info {
+        background-color: $easternBlue;
+        border-color: $easternBlue;
+        color: $white;
+        &:hover {
+            background-color: $blueChill;
+        }
+    }
+    &.Button.light {
+        background-color: $athensGray;
+        border-color: $athensGray;
+        color: $shark;
+        &:hover {
+            background-color: $athensGray2;
+        }
+    }
+    &.Button.dark {
+        background-color: $outerSpace;
+        border-color: $outerSpace;
+        color: $white;
+        &:hover {
+            background-color: $shark2;
+        }
+    }
+    &.Button.link {
+        background-color: transparent;
+        border-color: transparent;
+        color: $azureRadiance;
+        &:hover {
+            background-color: $athensGray3;
+        }
+    }
+    &.Button:disabled {
+        background-color: $abbey;
+        border-color: $abbey;
+
+        &:hover {
+            background-color: $abbey;
+            border-color: $abbey;
+        }
+    }
+}

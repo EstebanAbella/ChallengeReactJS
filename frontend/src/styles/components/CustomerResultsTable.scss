@@ -1,0 +1,47 @@
+@import '../variables';
+
+.tableInboundCase {
+    position: relative;
+    width: 85%;
+    padding: 5% 0 100px 0;
+
+    .dateContainer {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 15px;
+    }
+
+    table {
+        width: 100%;
+        tr {
+            text-align: inherit;
+            text-align: -webkit-match-parent;
+
+            th, td {
+                justify-content: center;
+                align-items: center;
+                padding: 5px;
+                text-align: center;
+            }
+
+            td {
+                border: 1px solid $abbey;
+            }
+
+            th {
+                background-color: $guardsmanRed;
+                color: $white;
+                padding: 5px 15px;
+            }
+
+            .redColor {
+                color: $guardsmanRed;
+            }
+            .blueColor {
+                color: $blueMedium;
+            }
+        }
+    }
+
+}

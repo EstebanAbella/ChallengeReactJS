@@ -1,0 +1,75 @@
+$white:#FFFFFF;
+$darkLiver:#515151;
+$independence: #475467;
+$darkCharcoal: #333333;
+$gallery : #f0f0f0;
+$azureRadiance : #007bff;
+$endeavour : #0056b3;
+$paleSky : #6c757d;
+$abbey : #545b62;
+$punch : #dc3545;
+$cardinal : #c82333;
+$guardsmanRed: #D00D00;
+$amber : #ffc107;
+$corn : #e0a800;
+$shark : #212529;
+$shark2 : #23272b;
+$eucalyptus : #28a745;
+$forestGreen : #218838;
+$easternBlue : #17a2b8;
+$blueChill : #138496;
+$athensGray : #f8f9fa;
+$athensGray2 : #e2e6ea;
+$athensGray3 : #e9ecef;
+$outerSpace: #343a40;
+$outerSpace2: #1d2124;
+
+$black: #000;
+$dark: #1B1A23;
+$light: #F4F2EE;
+$blueMedium: #0B549D;
+$blueLight: #479EE6;
+$greenMedium:  #4ABB46;
+
+.c-white {
+    color:$white;
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+.c-black {
+    color:$black;
+}
+
+.bg-black {
+    background-color: $black;
+}
+
+.f-monserrat {
+    font-family: "Montserrat";
+}
+
+.themeDark {
+    color: $light;
+    background-color: $black;
+}
+
+.themeLight {
+    color: $black;
+    background-color: $light;
+}
+
+
+body {
+    &.themeDark {
+        --themeColor: #F4F2EE;
+        --themeBackgroundColor: #000;
+    }
+
+    &.themeLight {
+        --themeColor: #000;
+        --themeBackgroundColor: #F4F2EE;
+    }
+}

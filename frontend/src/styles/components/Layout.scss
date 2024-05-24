@@ -1,0 +1,13 @@
+@use '../_media-queries';
+
+.layout {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 60%;
+    min-height: 100vh;
+
+    @media #{media-queries.$max-sm} {
+        min-width: 95%;
+    }
+}

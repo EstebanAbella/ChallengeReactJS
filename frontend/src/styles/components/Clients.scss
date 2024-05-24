@@ -1,0 +1,17 @@
+.clientsContainer {
+    position: relative;
+    height: 100vh;
+    min-width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 300px;
+        .clients {
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            border: 2px solid $blueMedium;
+        }
+}

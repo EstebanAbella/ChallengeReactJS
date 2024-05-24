@@ -1,0 +1,36 @@
+@import '../_variables.scss';
+
+.login {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+
+        input {
+            padding: 5px 10px;
+            position: relative;
+            z-index: 2;
+            background-color: transparent;
+            margin: 0px;
+            border: none;
+            width: 100%;
+            min-width: 300px;
+            color: $darkLiver;
+            outline: none;
+            border: 1px solid $darkLiver;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 22px;
+        }
+    }
+}

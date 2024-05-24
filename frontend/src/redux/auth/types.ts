@@ -1,0 +1,3 @@
+export const AUTH_FETCHING = 'AUTH_FETCHING';
+export const AUTH_FETCH = 'AUTH_FETCH';
+export const AUTH_FETCH_ERROR = 'AUTH_FETCH_ERROR';
