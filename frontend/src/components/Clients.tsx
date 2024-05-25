@@ -27,10 +27,12 @@ type ValidatorProps = {
 const Clients = ({ getClients, clients, clientsStatus, setClientSelected, clientSelected }: ValidatorProps) => {
 	useEffect(() => {
 		getClients()
+	}, [])
+	useEffect(() => {
 		if (clients) {
 			setClientSelected(clients[0]?.id)
 		}
-	}, [])
+	}, [clients])
 	return (
 		<section className="clientsContainer">
 			<div className="clients">
